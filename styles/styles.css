@@ -1,0 +1,46 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {    
+    background: #B4202E;
+    display: flex;    
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;              
+    color: #2B6BBD;  
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #d3af37;
+    height: 50px;
+    font-size: 10px;
+}
+
+figcaption {
+    font-size: 10px;
+    color: gray;
+}
+
+.container {
+    padding: 0;    
+    margin: 10px auto;
+    background: whitesmoke;
+}
