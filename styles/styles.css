@@ -20,27 +20,55 @@ div {
 }
 
 h1 {
-    padding: 0;
+    padding: 10px 0;
     margin: 0;
     text-align: center;              
     color: #2B6BBD;  
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 footer {
-    padding: 0;
-    margin: 0;
-    background-color: #d3af37;
-    height: 50px;
+    padding: 10px;        
+    background-color: #d3af37;    
     font-size: 10px;
+    display: flex;
+    justify-content: center;
+
 }
 
 figcaption {
     font-size: 10px;
     color: gray;
+    max-width: 272px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+section {
+    padding: 30px;
 }
 
 .container {
     padding: 0;    
     margin: 10px auto;
     background: whitesmoke;
+    width: 800px;
+}
+
+#img-div {
+    display: flex;  
+    flex-direction:row;       
+    justify-content: center;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
