@@ -24,7 +24,7 @@ h1 {
     margin: 0;
     text-align: center;              
     color: #2B6BBD;  
-    font-size: 32px;
+    font-size: 48px;
 }
 
 h2 {
@@ -51,6 +51,18 @@ figcaption {
 
 section {
     padding: 30px;
+    line-height: 1.7em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+li {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 80%);
 }
 
 .container {
@@ -67,8 +79,3 @@ section {
 
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
